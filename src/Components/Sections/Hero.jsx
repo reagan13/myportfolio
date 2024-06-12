@@ -12,10 +12,10 @@ const Hero = () => {
 					alt="image"
 					className="border border-black md:hidden "
 				/>
-				<p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+				<p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl ">
 					Hello I am, {""}
-					<span className="font-bold">Reagan Mabawad</span>, a computer science
-					student at <span className="font-bold">University of Mindanao.</span>
+					<b>Reagan Mabawad</b>, a computer science student at{" "}
+					<b>University of Mindanao.</b>
 				</p>
 				<p className="text-sm leading-relaxed md:text-base lg:text-lg">
 					Passionate computer scientist with experience in programming

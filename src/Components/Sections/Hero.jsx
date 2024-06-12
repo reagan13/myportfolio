@@ -1,7 +1,8 @@
 import LinkBox from "../LinkBox";
 import { FaFacebook } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 import image1 from "../../assets/image1.png";
 const Hero = () => {
 	return (
@@ -26,7 +27,7 @@ const Hero = () => {
 				<div className="flex gap-3">
 					<LinkBox IconComponent={FaFacebook} />
 					<LinkBox IconComponent={BiLogoGmail} />
-					<LinkBox IconComponent={FaTwitter} />
+					<LinkBox IconComponent={FaGithub} />
 				</div>
 			</div>
 			<div className=" w-1/2 hidden md:block ">

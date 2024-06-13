@@ -6,6 +6,7 @@ import Achievements from "./Components/Sections/Achievements";
 import AboutMe from "./Components/Sections/AboutMe";
 import MyProjects from "./Components/Sections/MyProjects";
 import Certifications from "./Components/Sections/Certifications";
+import GetInTouch from "./Components/Sections/GetInTouch";
 function App() {
 	return (
 		<>
@@ -22,6 +23,7 @@ function App() {
 			<Achievements />
 			<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
 				<Certifications />
+				<GetInTouch />
 			</div>
 		</>
 	);

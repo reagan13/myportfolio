@@ -10,11 +10,12 @@ const Certifications = () => {
 				<b>Certifications / Certificates</b>
 			</p>
 
-			<div className="mt-5 md:mt-8 lg:mt-16 grid grid-cols-4">
+			<div className="mt-8 lg:mt-16 flex flex-wrap justify-around gap-10 sm:gap-12 md:gap-16">
 				<CertificationsBox image={its_db} text="ITS Database" />
 				<CertificationsBox image={its_java} text="ITS Java" />
 				<CertificationsBox image={psite} text="Programming" />
 				<CertificationsBox image={h4g} text="Hack 4 Gov" />
+				<CertificationsBox image={h4g} text="Skills Clinic Mentor" />
 			</div>
 		</div>
 	);

@@ -1,8 +1,12 @@
 import PropTypes from "prop-types";
 const CertificationsBox = ({ image, text }) => {
 	return (
-		<div className="grid gap-5 border border-black text-center">
-			<img src={image} alt="" className="size-20 rounded-full sm:size-24" />
+		<div className="flex flex-col rounded-xl gap-5 size-44 sm:size-48 md:size-52 border border-black items-center justify-center ">
+			<img
+				src={image}
+				alt=""
+				className="size-20 rounded-full sm:size-24 md:size-28"
+			/>
 			<p className="font-bold">{text}</p>
 		</div>
 	);

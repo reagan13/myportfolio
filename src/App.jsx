@@ -7,6 +7,7 @@ import AboutMe from "./Components/Sections/AboutMe";
 import MyProjects from "./Components/Sections/MyProjects";
 import Certifications from "./Components/Sections/Certifications";
 import GetInTouch from "./Components/Sections/GetInTouch";
+import Footer from "./Components/Footer";
 function App() {
 	return (
 		<>
@@ -25,6 +26,7 @@ function App() {
 				<Certifications />
 				<GetInTouch />
 			</div>
+			<Footer />
 		</>
 	);
 }

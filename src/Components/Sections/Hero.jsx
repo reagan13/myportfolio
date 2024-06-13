@@ -2,7 +2,7 @@ import LinkBox from "../LinkBox";
 import { FaFacebook } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
-
+import "../../App.css";
 import image1 from "../../assets/image1.png";
 const Hero = () => {
 	return (
@@ -13,7 +13,7 @@ const Hero = () => {
 					alt="image"
 					className="border border-black md:hidden "
 				/>
-				<p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl ">
+				<p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">
 					Hello I am, {""}
 					<b>Reagan Mabawad</b>, a computer science student at{" "}
 					<b>University of Mindanao.</b>

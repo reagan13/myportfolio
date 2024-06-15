@@ -1,5 +1,10 @@
 import aboutme from "../../assets/aboutme.png";
+import { useState } from "react";
+
 const AboutMe = () => {
+	const [readMore, setReadMore] = useState(false);
+	const readMoreClass = readMore ? "line-clamp-none" : "line-clamp-4";
+
 	return (
 		<div className="my-20 md:flex gap-10">
 			<div className="md:w-1/2 flex items-center justify-center">
@@ -10,7 +15,9 @@ const AboutMe = () => {
 					About <b>Me</b>
 				</p>
 				<div className="">
-					<p className="line-clamp-4 md:line-clamp-6 xl:line-clamp-none mb-4">
+					<p
+						className={`${readMoreClass} md:${readMoreClass} md:text-lg xl:line-clamp-none mb-4`}
+					>
 						Hello! I&apos;m an aspiring Full Stack Web Developer with a passion
 						for coding and a knack for solving complex problems. I&apos;ve had
 						some exciting achievements in my tech journey, like winning 2nd
@@ -21,7 +28,19 @@ const AboutMe = () => {
 						problems and writing efficient code.
 					</p>
 
-					<p className="mb-4 hidden xl:block">
+					{readMore && (
+						<p className="mb-4 md:text-lg xl:hidden ">
+							When it comes to my skills, I&apos;m quick to learn new tools and
+							technologies, whether it&apos;s front-end design or back-end
+							logic. My ability to solve problems and work well with others
+							makes me a valuable team member. My goal is to become a versatile
+							Full Stack Web Developer who can make meaningful contributions to
+							any project. With my mix of technical skills, mentoring
+							experience, and strong soft skills, I&apos;m committed to making a
+							positive impact in the tech world and beyond.
+						</p>
+					)}
+					<p className="mb-4 hidden md:text-lg xl:block ">
 						When it comes to my skills, I&apos;m quick to learn new tools and
 						technologies, whether it&apos;s front-end design or back-end logic.
 						My ability to solve problems and work well with others makes me a
@@ -31,8 +50,11 @@ const AboutMe = () => {
 						soft skills, I&apos;m committed to making a positive impact in the
 						tech world and beyond.
 					</p>
-					<button className="bg-black rounded-full w-32 md:w-40 mt-5 p-3 md:p-4 md:text-lg text-white font-semibold xl:hidden">
-						Read More
+					<button
+						onClick={() => setReadMore(!readMore)}
+						className="bg-black rounded-full w-32 md:w-40 mt-5 p-3 md:p-4 md:text-lg text-white font-semibold xl:hidden"
+					>
+						{readMore ? "Read Less" : "Read More"}
 					</button>
 				</div>
 			</div>

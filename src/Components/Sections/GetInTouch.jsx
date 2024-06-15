@@ -6,7 +6,10 @@ import LinkBox from "../LinkBox";
 import "../../App.css";
 const GetInTouch = () => {
 	return (
-		<div className="mt-28 flex flex-col gap-10 sm:gap-14 lg:flex-row lg:justify-between lg:gap-20 ">
+		<div
+			className="mt-28 flex flex-col gap-10 sm:gap-14 lg:flex-row lg:justify-between lg:gap-20 "
+			id="contact"
+		>
 			<div className="flex flex-col gap-5 sm:gap-10 lg:w-1/2 ">
 				<MessageForm />
 				<div className="flex gap-5 lg:hidden">

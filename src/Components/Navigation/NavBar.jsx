@@ -29,17 +29,17 @@ const NavBar = () => {
 
 				<ul className="md:flex md:gap-5 lg:gap-10 hidden text-sm lg:text-base">
 					<li>
-						<a>About Me</a>
+						<a href="#about">About Me</a>
 					</li>
 
 					<li>
-						<a>Skills</a>
+						<a href="#skills">Skills</a>
 					</li>
 					<li>
-						<a>Projects</a>
+						<a href="#projects">Projects</a>
 					</li>
 					<li>
-						<a>Contact Me</a>
+						<a href="#contact">Contact Me</a>
 					</li>
 				</ul>
 				<button className="text-white bg-black py-2 px-4 rounded-md md:flex items-center gap-2 hidden ">

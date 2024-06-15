@@ -4,6 +4,7 @@ import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
 import "../../App.css";
 import image1 from "../../assets/image1.png";
+
 const Hero = () => {
 	return (
 		<div className="my-5 sm:my-10 lg:my-20 flex items-center">

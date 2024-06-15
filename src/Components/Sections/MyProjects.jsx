@@ -3,7 +3,10 @@ import exclusive from "../../assets/exclusive.png";
 import nightas from "../../assets/nightas.png";
 const MyProjects = () => {
 	return (
-		<div className="bg-black text-white my-20 py-20 px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20">
+		<div
+			className="bg-black text-white my-20 py-20 px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20"
+			id="projects"
+		>
 			<p className="text-2xl lg:text-4xl text-center">
 				My <span className="font-bold">Projects</span>
 			</p>

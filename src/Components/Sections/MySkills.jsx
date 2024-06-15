@@ -12,7 +12,7 @@ import { FaCss3 } from "react-icons/fa";
 import SkillsBox from "../SkillsBox";
 const MySkills = () => {
 	return (
-		<div className="text-center mt-14 md:mt-20 lg:mt-24 xl:mt-28">
+		<div className="text-center mt-14 md:mt-20 lg:mt-24 xl:mt-28" id="skills">
 			<p className="text-2xl lg:text-4xl">
 				Tech <b>Stack</b>
 			</p>

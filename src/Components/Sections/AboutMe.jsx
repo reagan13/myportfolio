@@ -6,7 +6,7 @@ const AboutMe = () => {
 	const readMoreClass = readMore ? "line-clamp-none" : "line-clamp-4";
 
 	return (
-		<div className="my-20 md:flex gap-10">
+		<div className="my-20 md:flex gap-10" id="about">
 			<div className="md:w-1/2 flex items-center justify-center">
 				<img src={aboutme} alt="" />
 			</div>

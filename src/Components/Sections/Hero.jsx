@@ -1,6 +1,6 @@
 import LinkBox from "../LinkBox";
 import { FaFacebook } from "react-icons/fa";
-import { BiLogoGmail } from "react-icons/bi";
+import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../../App.css";
 import image1 from "../../assets/image1.png";
@@ -26,9 +26,15 @@ const Hero = () => {
 					innovative solutions in a dynamic tech environment.
 				</p>
 				<div className="flex gap-3">
-					<LinkBox IconComponent={FaFacebook} />
-					<LinkBox IconComponent={BiLogoGmail} />
-					<LinkBox IconComponent={FaGithub} />
+					<LinkBox
+						IconComponent={FaFacebook}
+						link="https://www.facebook.com/reaganmabawad13"
+					/>
+					<LinkBox IconComponent={FaLinkedin} />
+					<LinkBox
+						IconComponent={FaGithub}
+						link="https://github.com/reagan02"
+					/>
 				</div>
 			</div>
 			<div className=" w-1/2 hidden md:block ">

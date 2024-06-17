@@ -1,6 +1,6 @@
 import MessageForm from "../MessageForm";
 import { FaFacebook } from "react-icons/fa";
-import { BiLogoGmail } from "react-icons/bi";
+import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import LinkBox from "../LinkBox";
 import "../../App.css";
@@ -13,9 +13,15 @@ const GetInTouch = () => {
 			<div className="flex flex-col gap-5 sm:gap-10 lg:w-1/2 ">
 				<MessageForm />
 				<div className="flex gap-5 lg:hidden">
-					<LinkBox IconComponent={FaFacebook} />
-					<LinkBox IconComponent={BiLogoGmail} />
-					<LinkBox IconComponent={FaGithub} />
+					<LinkBox
+						IconComponent={FaFacebook}
+						link="https://www.facebook.com/reaganmabawad13"
+					/>
+					<LinkBox IconComponent={FaLinkedin} />
+					<LinkBox
+						IconComponent={FaGithub}
+						link="https://github.com/reagan02"
+					/>
 				</div>
 			</div>
 			<div className="flex flex-col gap-7 lg:w-1/2 lg:mt-14">

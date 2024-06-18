@@ -1,5 +1,5 @@
 import { FaFacebook } from "react-icons/fa";
-import { BiLogoGmail } from "react-icons/bi";
+import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import LinkBox from "./LinkBox";
 import { useState } from "react";
@@ -40,9 +40,15 @@ const MessageForm = () => {
 						Send Message
 					</button>
 					<div className="lg:flex gap-5 hidden  ">
-						<LinkBox IconComponent={FaFacebook} />
-						<LinkBox IconComponent={BiLogoGmail} />
-						<LinkBox IconComponent={FaGithub} />
+						<LinkBox
+							IconComponent={FaFacebook}
+							link="https://www.facebook.com/reaganmabawad13"
+						/>
+						<LinkBox IconComponent={FaLinkedin} />
+						<LinkBox
+							IconComponent={FaGithub}
+							link="https://github.com/reagan02"
+						/>
 					</div>
 				</div>
 			</form>

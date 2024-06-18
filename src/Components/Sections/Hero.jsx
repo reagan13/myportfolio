@@ -4,8 +4,15 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import "../../App.css";
 import image1 from "../../assets/image1.png";
+import { AnimatePresence, motion } from "framer-motion";
 
+const sentence1 = "Hello I am, ";
+const name = "Reagan Mabawad";
+const sentence2 = ", a computer science student at ";
+const university = "University of Mindanao.";
 const Hero = () => {
+	const sentence =
+		"Passionate computer scientist with experience in programming competitions, cybersecurity hackathon, and mentoring. Skilled in the MERN stack and full-stack web development. Eager to contribute innovative solutions in a dynamic tech environment.";
 	return (
 		<div className="my-5 sm:my-10 lg:my-20 flex items-center">
 			<div className="flex flex-col md:justify-between gap-5 md:w-1/2 lg:gap-10 xl:gap-20">
@@ -15,15 +22,32 @@ const Hero = () => {
 					className="border border-black md:hidden "
 				/>
 				<p className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-					Hello I am, {""}
-					<b>Reagan Mabawad</b>, a computer science student at{" "}
-					<b>University of Mindanao.</b>
+					<AnimatePresence>
+						{[sentence1, name, sentence2, university].map((phrase, i) => (
+							<motion.span
+								key={i}
+								initial={{ opacity: 0, y: -50 }}
+								animate={{ opacity: 1, y: 0 }}
+								transition={{ delay: i * 0.5 }}
+							>
+								{i % 2 === 0 ? phrase : <b>{phrase}</b>}
+							</motion.span>
+						))}
+					</AnimatePresence>
 				</p>
 				<p className="text-sm leading-relaxed md:text-base lg:text-lg">
-					Passionate computer scientist with experience in programming
-					competitions, cybersecurity hackathon, and mentoring. Skilled in the
-					MERN stack and full-stack web development. Eager to contribute
-					innovative solutions in a dynamic tech environment.
+					<AnimatePresence>
+						{sentence.split("").map((char, i) => (
+							<motion.span
+								key={i}
+								initial={{ opacity: 0, y: -50 }}
+								animate={{ opacity: 1, y: 0 }}
+								transition={{ delay: i * 0.02 }}
+							>
+								{char}
+							</motion.span>
+						))}
+					</AnimatePresence>
 				</p>
 				<div className="flex gap-3">
 					<LinkBox

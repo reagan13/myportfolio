@@ -33,7 +33,7 @@ const GetInTouch = () => {
 					skills and experience or want to discuss potential opportunities,
 					please reach out. I look forward to connecting with you!
 				</p>
-				<p className="text-xl font-bold">reaganmabawad13@gmail.com</p>
+				<p className="text-xl font-bold">r.mabawad.529147@umindanao.edu.ph</p>
 				<p className="text-xl font-bold">+63 9455419799</p>
 			</div>
 		</div>

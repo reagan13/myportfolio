@@ -5,7 +5,10 @@ import h4g from "../../assets/h4g.png";
 import CertificationsBox from "../CertificationsBox";
 const Certifications = () => {
 	return (
-		<div className="text-center mt-14 md:mt-20 lg:mt-24 xl:mt-28">
+		<div
+			className="text-center mt-14 md:mt-20 lg:mt-24 xl:mt-28"
+			id="certificate"
+		>
 			<p className="text-2xl lg:text-4xl">
 				<b>Certifications / Certificates</b>
 			</p>

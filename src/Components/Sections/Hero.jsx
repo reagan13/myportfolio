@@ -14,7 +14,7 @@ const Hero = () => {
 	const sentence =
 		"Passionate computer scientist with experience in programming competitions, cybersecurity hackathon, and mentoring. Skilled in the MERN stack and full-stack web development. Eager to contribute innovative solutions in a dynamic tech environment.";
 	return (
-		<div className="my-5 sm:my-10 lg:my-20 flex items-center">
+		<div className="my-5 sm:my-10 lg:my-20 flex items-center" id="about">
 			<div className="flex flex-col md:justify-between gap-5 md:w-1/2 lg:gap-10 xl:gap-20">
 				<img
 					src={image1}

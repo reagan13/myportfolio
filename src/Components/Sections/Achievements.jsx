@@ -1,7 +1,7 @@
 import hack4gov from "../../assets/hack4gov.png";
 const Achievements = () => {
 	return (
-		<div className=" text-center mt-14 md:mt-20 lg:mt-24 xl:mt-28">
+		<div className=" text-center mt-14 md:mt-20 lg:mt-24 xl:mt-28" id="awards">
 			<p className="font-bold text-2xl lg:text-4xl text-center">Achievements</p>
 
 			<div className="border border-white rounded-md mt-8 md:mt-10 p-5">

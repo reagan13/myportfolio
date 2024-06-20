@@ -44,16 +44,21 @@ const NavBar = () => {
 						</Link>
 					</li>
 					<li className="hover:text-blue-500">
-						<Link to="/projects" onClick={() => handleScroll("projects")}>
-							Projects
-						</Link>
-					</li>
-					<li className="hover:text-blue-500">
 						<Link
 							to="/certificates"
 							onClick={() => handleScroll("certificate")}
 						>
 							Certificates
+						</Link>
+					</li>
+					<li className="hover:text-blue-500">
+						<Link to="/projects" onClick={() => handleScroll("awards")}>
+							Awards
+						</Link>
+					</li>
+					<li className="hover:text-blue-500">
+						<Link to="/projects" onClick={() => handleScroll("projects")}>
+							Projects
 						</Link>
 					</li>
 				</ul>

@@ -6,10 +6,10 @@ import CertificationsBox from "../CertificationsBox";
 const Certifications = () => {
 	return (
 		<div
-			className=" bg-black text-white my-20 py-20 px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20"
+			className=" bg-black text-white my-20 py-20 px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 "
 			id="certificate"
 		>
-			<p className="text-2xl lg:text-4xl">
+			<p className="text-2xl lg:text-4xl text-center">
 				<b>Certifications / Certificates</b>
 			</p>
 

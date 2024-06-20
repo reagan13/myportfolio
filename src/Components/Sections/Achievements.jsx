@@ -11,7 +11,7 @@ const Achievements = () => {
 						alt=""
 						className="w-24 md:w-28 lg:w-32 xl:w-36 object-contain"
 					/>
-					<div className="pl-5">
+					<div className="pl-5 text-left">
 						<p>Hackathon - 2nd Place</p>
 						<p className="text-sm md:text-base lg:text-lg">
 							Hack4Gov2 Regional Qualifying Round

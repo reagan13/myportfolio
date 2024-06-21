@@ -14,7 +14,8 @@ const NavBar = () => {
 		<div className="sticky top-0 z-10 bg-white ">
 			<nav className="flex justify-between items-center py-2 font-bold relative ">
 				<a className="md:text-lg lg:text-xl">Portfolio</a>
-				<button className="md:hidden">
+
+				<button className="md:hidden ml-auto">
 					{showMobileMenu ? (
 						<>
 							<HiOutlineXMark

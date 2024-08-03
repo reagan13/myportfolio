@@ -9,6 +9,7 @@ import Certifications from "./Components/Sections/Certifications";
 import GetInTouch from "./Components/Sections/GetInTouch";
 import Footer from "./Components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
+import "./index.css";
 
 function App() {
 	return (

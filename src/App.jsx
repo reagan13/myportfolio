@@ -13,7 +13,7 @@ import "./index.css";
 
 function App() {
 	return (
-		<div className="relative">
+		<div className="relative xl:px-14">
 			<Router>
 				<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
 					<NavBar />
@@ -22,10 +22,11 @@ function App() {
 				</div>
 				<Experience />
 				<Projects />
-				<Certifications />
-				<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
-					{/* <AboutMe /> */}
+
+				{/* <div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
+					<AboutMe />
 				</div>
+				<Certifications /> */}
 
 				<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
 					<GetInTouch />

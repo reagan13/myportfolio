@@ -6,7 +6,6 @@ const ProjectList = ({
 	title,
 	description,
 	image,
-	additionalText,
 	reverse,
 	link,
 	deployLink,
@@ -25,13 +24,15 @@ const ProjectList = ({
 				<p className="text-xl font-bold">{title}</p>
 				<p className="leading-7">{description}</p>
 				<div className="flex gap-5  items-center">
-					<a
-						href={deployLink}
-						target="_blank"
-						className=" rounded-xl p-2 border border-white"
-					>
-						<FaExternalLinkAlt className="text-xl sm:text-2xl" />
-					</a>
+					{deployLink && (
+						<a
+							href={deployLink}
+							target="_blank"
+							className=" rounded-xl p-2 border border-white"
+						>
+							<FaExternalLinkAlt className="text-xl sm:text-2xl" />
+						</a>
+					)}
 					<a
 						href={link}
 						target="_blank"
@@ -39,7 +40,6 @@ const ProjectList = ({
 					>
 						View on Github
 					</a>
-					<p className="text-xs">{additionalText}</p>
 				</div>
 			</div>
 		</div>
@@ -53,7 +53,6 @@ ProjectList.propTypes = {
 	title: PropTypes.string.isRequired,
 	description: PropTypes.string.isRequired,
 	image: PropTypes.string.isRequired,
-	additionalText: PropTypes.string,
 	reverse: PropTypes.bool,
 	link: PropTypes.string,
 	deployLink: PropTypes.string,

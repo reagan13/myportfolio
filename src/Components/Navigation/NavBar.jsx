@@ -7,9 +7,7 @@ import MenuList from "./MenuList";
 import { Link } from "react-router-dom";
 const NavBar = () => {
 	const { showMobileMenu, setShowMobileMenu } = useContext(NavbarContext);
-	const handleScroll = (id) => {
-		document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-	};
+
 	return (
 		<div className="sticky top-0 z-10 bg-white ">
 			<nav className="flex justify-between items-center py-2 font-bold relative ">
@@ -34,33 +32,17 @@ const NavBar = () => {
 
 				<ul className="md:flex md:gap-5 lg:gap-10 hidden text-sm lg:text-base">
 					<li className="hover:text-blue-500">
-						<Link to="/about" onClick={() => handleScroll("about")}>
-							About Me
-						</Link>
+						<a href="#about">About Me</a>
 					</li>
 
 					<li className="hover:text-blue-500">
-						<Link to="/skills" onClick={() => handleScroll("skills")}>
-							Skills
-						</Link>
+						<a href="#skills">Skills</a>
 					</li>
 					<li className="hover:text-blue-500">
-						<Link
-							to="/certificates"
-							onClick={() => handleScroll("certificate")}
-						>
-							Certificates
-						</Link>
+						<a href="#certificates">Experience</a>
 					</li>
 					<li className="hover:text-blue-500">
-						<Link to="/projects" onClick={() => handleScroll("awards")}>
-							Awards
-						</Link>
-					</li>
-					<li className="hover:text-blue-500">
-						<Link to="/projects" onClick={() => handleScroll("projects")}>
-							Projects
-						</Link>
+						<a href="">Projects</a>
 					</li>
 				</ul>
 				<a

@@ -21,6 +21,7 @@ const Certifications = () => {
 				<CertificationsBox image={h4g} text="Skills Clinic Mentor" />
 			</div>
 		</div>
+		
 	);
 };
 

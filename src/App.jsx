@@ -8,31 +8,35 @@ import Projects from "./Components/Sections/Projects";
 import Certifications from "./Components/Sections/Certifications";
 import GetInTouch from "./Components/Sections/GetInTouch";
 import Footer from "./Components/Footer";
-import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 
 function App() {
 	return (
 		<div className="relative xl:px-14">
-			<Router>
-				<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
-					<NavBar />
+			<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
+				<NavBar />
+				<div id="hero">
 					<Hero />
+				</div>
+				<div id="skills" className="scroll-margin-top ">
 					<MySkills />
 				</div>
+			</div>
+
+			<div id="experience" className="scroll-margin-top ">
 				<Experience />
+			</div>
+
+			<div id="projects" className="scroll-margin-top ">
 				<Projects />
-
-				{/* <div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
-					<AboutMe />
-				</div>
-				<Certifications /> */}
-
-				<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
+			</div>
+			<div className="px-5 sm:px-5 md:px-10 lg:px-15 xl:px-20 mt-2 sm:mt-4 md:mt-5">
+				<div id="contact" className="scroll-margin-top ">
 					<GetInTouch />
 				</div>
-				<Footer />
-			</Router>
+			</div>
+
+			<Footer />
 		</div>
 	);
 }

@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
 body {
 	@apply font-sora;
+}
+
+.scroll-margin-top {
+	scroll-margin-top: 80px;
 }

@@ -17,7 +17,11 @@ const GetInTouch = () => {
 						IconComponent={FaFacebook}
 						link="https://www.facebook.com/reaganmabawad13"
 					/>
-					<LinkBox IconComponent={FaLinkedin} />
+					<LinkBox
+						IconComponent={FaLinkedin}
+						link="https://www.linkedin.com/in/reaganm
+"
+					/>
 					<LinkBox
 						IconComponent={FaGithub}
 						link="https://github.com/reagan02"
@@ -33,7 +37,7 @@ const GetInTouch = () => {
 					skills and experience or want to discuss potential opportunities,
 					please reach out. I look forward to connecting with you!
 				</p>
-				<p className="md:text-xl font-bold">
+				<p className="text-sm sm:text-base md:text-xl font-bold ">
 					r.mabawad.529147@umindanao.edu.ph
 				</p>
 				<p className="md:text-xl font-bold">+63 9455419799</p>

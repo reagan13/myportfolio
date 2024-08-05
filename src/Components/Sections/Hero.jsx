@@ -7,10 +7,7 @@ import image1 from "../../assets/image1.png";
 
 const Hero = () => {
 	return (
-		<div
-			className="my-5 sm:my-10 lg:my-20 flex md:flex-row flex-col-reverse"
-			id="about"
-		>
+		<div className="my-5 sm:my-10 lg:my-20 flex md:flex-row flex-col-reverse">
 			<div className="flex flex-col gap-5 md:gap-0  md:justify-between  md:w-1/2 md:mt-16 lg:mt-24 xl:mt-32">
 				<p
 					className="text-xl md:text-2xl lg:text-3xl xl:text-4xl sm:leading-[2.5rem] xl:leading-[3.5rem] xl:pr-10

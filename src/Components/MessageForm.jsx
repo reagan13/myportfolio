@@ -46,7 +46,7 @@ const MessageForm = () => {
 				email,
 				message,
 			};
-			console.log(import.meta.env.VITE_SERVICE_ID);
+
 			// Use emailjs to email contact form data
 			await emailjs.send(
 				import.meta.env.VITE_SERVICE_ID,

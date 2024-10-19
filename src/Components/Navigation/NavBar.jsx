@@ -47,7 +47,7 @@ const NavBar = () => {
 					</li>
 				</ul>
 				<a
-					href="https://drive.google.com/file/d/1Mv8btvB5f4csljbMLeVnvR5sl4X77AA8/view?usp=sharing"
+					href="https://drive.google.com/file/d/1NBO9nWLjqat7t5AxD_v6Yv7BlYlD7A5C/view?usp=sharing"
 					target="_blank"
 				>
 					<button className="text-white bg-black py-2 px-4 rounded-md md:flex items-center gap-2 hidden hover:text-black hover:bg-white hover:border-2 hover:border-black">

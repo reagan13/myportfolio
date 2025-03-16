@@ -4,7 +4,6 @@ import { HiOutlineXMark } from "react-icons/hi2";
 import { NavbarContext } from "../../Context/NavbarContext";
 import { useContext } from "react";
 import MenuList from "./MenuList";
-import { NavLink } from "react-router-dom";
 const NavBar = () => {
 	const { showMobileMenu, setShowMobileMenu } = useContext(NavbarContext);
 	return (

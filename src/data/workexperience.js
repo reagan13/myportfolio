@@ -1,6 +1,16 @@
 import mediaone from "../assets/mediaone.png";
 import codeability from "../assets/codebility.jpg";
+import lodong from "../assets/LODONG.png";
 export const experience = [
+	{
+		logoSrc: lodong,
+		logoAlt: "LODONG Logo",
+		position: "Full-Stack Developer | More on Front End ",
+		company: "LODONG",
+		dateRange: "March 2025 - October 2025",
+		description:
+			"I contributed to multiple projects across web and mobile, including e-commerce, medical, and service-based applications. My work focused on building user-facing features while coordinating closely with the backend team to ensure smooth functionality. Throughout these projects, I consistently delivered reliable solutions and adapted quickly to different requirements.",
+	},
 	{
 		logoSrc: codeability,
 		logoAlt: "Codeability Logo",

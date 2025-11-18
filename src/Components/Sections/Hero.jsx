@@ -34,7 +34,7 @@ const Hero = () => {
 					/>
 					<LinkBox
 						IconComponent={FaGithub}
-						link="https://github.com/reagan02"
+						link="https://github.com/reagan13"
 					/>
 				</div>
 			</div>
